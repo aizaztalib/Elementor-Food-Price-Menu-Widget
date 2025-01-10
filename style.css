@@ -1,0 +1,82 @@
+/*--------------------------------------------------------------
+## Food Price Menu
+--------------------------------------------------------------*/
+.food-price-menu .menu-label {
+  font-size: 74%;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1px 10px;
+  font-weight: 600;
+  margin: 0 0 0 10px;
+}
+.food-price-menu .menu-item:first-child {
+  margin-top: 0 !important;
+}
+.food-price-menu .menu-item:last-child {
+  margin-bottom: 0 !important;
+}
+
+.food-price-menu .menu-item > * {
+  flex: 0 0 80px;
+}
+
+/* Title, separator, and price container */
+.food-price-menu .menu-item .content .title_priccce {
+    display: flex;
+    align-items: center;
+}
+
+/* Title styling */
+.food-price-menu .menu-item .content .title_priccce .title {
+    margin: 0;
+}
+
+/* Separator styling */
+.food-price-menu .menu-item .content .item-separator {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+/* Price styling */
+.food-price-menu .menu-item .content .title_priccce .price {
+    flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+    margin: 0;
+    
+}
+
+/* Description styling */
+.food-price-menu .menu-item .content .description {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+
+.food-price-menu .menu-item .image img {
+  height: 80px;
+  overflow: ;
+  border-radius: 50%;
+  width: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-price-menu .menu-item .image {
+  margin-right: 20px;
+}
+
+.food-price-menu .menu-item {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+.food-price-menu .menu-item .content {
+  flex-grow: 1;
+}
